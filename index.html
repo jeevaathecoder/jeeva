@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio   </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58ee1120f1.js" crossorigin="anonymous"></script>
+</head>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa -sharp fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa -solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Full Stack Developer</p>
+                <h1>Hi,I'am <span>Jeeva</span> <br>from Salem,Tamil Nadu</h1>
+            </div>
+        </div>
+    </div>
+   <!-- -------------about me------------>
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p> I am a current enginerring student,I am learing full stack developement, i am very much interested in coding and i wish to learn blockchain technology, In future, I want to become a great blockchain developer</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('expertise')"> Expertise</p>
+                    <p class="tab-links" onclick="opentab('education')"> Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages Known</span><br>C,C++,Python,Java</li>
+                        <li><span>Techincal Skills</span><br>HTML,CSS,JavaScript,MySQL</li>
+                        <li><span>Web Application</span><br> building Web application</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="expertise">
+                    <ul>
+                        <li><span>Problem Solving</span><br>Skill to Solve Problems</li>
+                        <li><span>Team Work</span><br>Ability to work with a team</li>
+                        <li><span>Communication</span><br>Ability to communicate with others</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-SSLC</span><br>Secured 83.8%, <br>St.Mary's Higher Secondary School </li>
+                        <li><span>2021-HSC</span><br>Secured 87.6%,St.Mary's Higher Secondary School</li>
+                        <li><span>2021-2025 B.E</span><br> B.E.Computer Science Enginerring<br>Secured 8.05CGPA (upto 2nd Sem),<br>
+                        Mahendra Enginerring College,Mallasamudram,Namakkal</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services </h1>
+            <div class="service-list">
+                 <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Devoloper</h2>
+                    <p>I have the ability to build new websites for the users, using HTML,CSS and JavaScript.</p>
+                    <a href="#">Learn More</a>
+                 </div>
+                 <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>I have the ability to desing new websites for the users, using HTML,CSS and JavaScript</p>
+                    <a href="#">Learn More</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Backend Devloper</h2>
+                    <p>I have the ability to develope  backend code in C,C++,Python and Java.</p>
+                    <a href="#">Learn More</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----portfolio--- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer"> 
+                        <h3>User Management System</h3>
+                        <p>I created, User Management System project Using Python and MySQL</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                   
+                    
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>People Counter App</h3>
+                        <p>I created People Counter App using HTML,CSS and JavaScript</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                    
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Simple website</h3>
+                        <p>I created simple websites using HTML,CSS and JavaScript</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <a href="#"  class="btn">See more</a>
+            </div>
+       
+    </div>
+
+    <!-- Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>jeevaathecoder@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9789460093</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/jeeva-s-775499244"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/52Cse"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/mr_perfect_jeevaa/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/jeevaathecode"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="images/jeeva resume.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+                      <button type="submit" class="btn btn2" onclick="sumbit()">Sumbit</button>
+                    </form>
+                    <span id="msg" ></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Jeeva. Made with by JEEVA </p> 
+        </div>
+    </div>
+<body>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right='0';
+      
+        }
+        function closemenu(){
+            sidemenu.style.right='-200px';
+      
+        }
+    </script>
+    <!--
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbyojkg4zvoZpRDgxjooWvRuGlWCoMAjkND5k2_8_meDUAxC3wRHrZ5I-2z4aeWqhAlT/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        function sumbit(){
+            console.log("Sumbitted Sucessfully")
+        }
+        const msg=document.getElementById("msg")
+        msg.innerText=sumbit()
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>-->
+</body>
+</html> 
